@@ -1,6 +1,6 @@
 # Hi, I'm Michel 👋
 
-I work on full‑stack projects and small automation tools. Most of my focus goes into making things clear, reliable, and easy to maintain — whether it's a web app, a script, or a deployment fix.
+I work on full‑stack projects and small automation tools. Most of my focus goes into making things clear, reliable, and easy to maintain - whether it's a web app, a script, or a deployment fix.
 
 ---
 
@@ -58,7 +58,7 @@ I use GitHub Gists for small scripts and fixes that don’t need a full reposito
 
 ## 🎧 Outside of code
 
-I collect vinyl — especially older or unusual releases — and enjoy exploring how different genres influence each other.
+I collect vinyl - especially older or unusual releases - and enjoy exploring how different genres influence each other.
 
 ---
 
