@@ -7,7 +7,7 @@ I work on full‑stack projects and small automation tools. Most of my focus goe
 ## 🛠️ What I work with
 
 ### Languages & Frameworks
-- C#, TypeScript, Node.js, Python 
+- C#, TypeScript, JS, Node.js, Python 
 - POSIX‑compliant Bash/dash  
 - PowerShell (Windows Server)  
 - SQL  
