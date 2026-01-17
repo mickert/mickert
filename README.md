@@ -47,10 +47,11 @@ I use GitHub Gists for small scripts and fixes that don’t need a full reposito
   - Includes adaptive backoff to avoid rate limits
 
 - **[directus-app.js](https://gist.github.com/mickert/786a03707de3eaaee3b34a350409fb6d)**  
-  A small patch for Directus 9.9–10+ to fix deployment issues on IIS, IISNODE, and Plesk.  
-  - Addresses the `./server` export issue  
-  - Based on a community workaround  
-  - Filters noisy deprecation warnings
+  A deployment patch for Directus 9.9–10+ on IIS, IISNode, Passenger (Plesk), and named‑pipe environments.  
+  - Fixes `./server` export regression and `ERR_SOCKET_BAD_PORT`  
+  - Filters noisy DEP0005 deprecation warnings (IISNode)  
+  - Includes patched `startServer()` logic for named‑pipe support  
+  - Based on a community workaround with upstream references
 
 🔗 **All gists:** https://gist.github.com/mickert
 
