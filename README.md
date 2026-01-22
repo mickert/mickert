@@ -59,7 +59,7 @@ I use GitHub Gists for small tools, patches, and technical notes that don’t ne
   - Includes hardware IDs, firmware versions, topology diagram, and test methodology  
   - Useful reference for anyone trying to get stable wired networking on TCL Google TV devices
 
-- **[cloudflare-redirect-rules-guide-dynamic-utm-referrer.md](https://gists.mickert.dev/dfb566c41d43e35a0b2368eb25dc35b6#file-cloudflare-redirect-rules-guide-dynamic-utm-referrer-md)**
+- **[cloudflare-redirect-rules-guide-dynamic-utm-referrer.md](https://gists.mickert.dev/dfb566c41d43e35a0b2368eb25dc35b6#file-cloudflare-redirect-rules-guide-dynamic-utm-referrer-md)**  
   Cloudflare redirect rules guide - complete dynamic redirect expression with path passthrough, UTM tracking, referrer passthrough, and setup instructions.  
   - **No Workers required**  
   - **Includes curl test examples**  
