@@ -58,6 +58,7 @@ I use GitHub Gists for small tools, patches, and technical notes that don’t ne
   - Confirms RTL8153 (1GbE) and RTL8156B (2.5GbE) working via a powered USB 3.2 hub  
   - Includes hardware IDs, firmware versions, topology diagram, and test methodology  
   - Useful reference for anyone trying to get stable wired networking on TCL Google TV devices
+
 🔗 **All gists:** https://gist.github.com/mickert
 
 ---
