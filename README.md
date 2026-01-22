@@ -71,7 +71,7 @@ I use GitHub Gists for small tools, patches, and technical notes that don’t ne
 
 ---
 
-## 👋 Hey visitor — Michel here
+## 👋 Hey visitor - Michel here
 
 If any of my tools, gists, or guides helped you out - saved you time or money, solved a headache, or taught you something useful - I’d love it if you:
 
