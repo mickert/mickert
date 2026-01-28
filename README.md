@@ -40,31 +40,37 @@ Includes adaptive backoff and a test-only mode for UI-change resilience.
 
 I use GitHub Gists for small tools, patches, and technical notes that don’t need a full repository but are still worth sharing with others.
 
-- **[defender-family-bulk-dismiss-alerts.js](https://gists.mickert.dev/acb16e532d1cb37ae7ffa89f34fa29b0#file-defender-family-bulk-dismiss-alerts-js)**  
+- **[avaScript automation script to bulk-dismiss Microsoft Defender Family phishing alerts - defender-family-bulk-dismiss-alerts.js](https://gists.mickert.dev/acb16e532d1cb37ae7ffa89f34fa29b0#file-defender-family-bulk-dismiss-alerts-js)**  
   DevTools automation script to bulk-dismiss Microsoft Defender Family phishing alerts.  
   - Works with Dutch and English UI  
   - Regex-based matching to stay stable across UI changes  
   - Adaptive backoff to avoid rate limits
 
-- **[directus-app.js](https://gists.mickert.dev/786a03707de3eaaee3b34a350409fb6d#file-directus-app-js)**  
+- **[Directus 9.9 → 10+ startup patch for IIS, IISNode, Passenger (Plesk), Windows named pipes, and UNIX sockets - directus-app.js](https://gists.mickert.dev/786a03707de3eaaee3b34a350409fb6d#file-directus-app-js)**  
   Deployment patch for Directus 9.9–10+ on IIS, IISNode, Passenger (Plesk), and named-pipe environments.  
   - Fixes `./server` export regression and `ERR_SOCKET_BAD_PORT`  
   - Filters noisy DEP0005 deprecation warnings (IISNode)  
   - Includes patched `startServer()` logic for named-pipe support  
   - Based on a community workaround with upstream references
 
-- **[tcl-google-tv-usb-ethernet-compatibility.md](https://gists.mickert.dev/734624dfa40e9684a6a0cb8ce798ca20#file-tcl-google-tv-usb-ethernet-compatibility-md)**  
+- **[USB-C / USB-A Ethernet Adapter Compatibility on TCL - tcl-google-tv-usb-ethernet-compatibility.md](https://gists.mickert.dev/734624dfa40e9684a6a0cb8ce798ca20#file-tcl-google-tv-usb-ethernet-compatibility-md)**  
   Real-world compatibility report for USB Ethernet adapters on TCL Google TV models.  
   - Confirms RTL8153 (1GbE) and RTL8156B (2.5GbE) working via a powered USB 3.2 hub  
   - Includes hardware IDs, firmware versions, topology diagram, and test methodology  
   - Useful reference for anyone trying to get stable wired networking on TCL Google TV devices
 
-- **[cloudflare-redirect-rules-guide-dynamic-utm-referrer.md](https://gists.mickert.dev/dfb566c41d43e35a0b2368eb25dc35b6#file-cloudflare-redirect-rules-guide-dynamic-utm-referrer-md)**  
+- **[Cloudflare Redirect Rules - cloudflare-redirect-rules-guide-dynamic-utm-referrer.md](https://gists.mickert.dev/dfb566c41d43e35a0b2368eb25dc35b6#file-cloudflare-redirect-rules-guide-dynamic-utm-referrer-md)**  
   Cloudflare redirect rules guide - complete dynamic redirect expression with path passthrough, UTM tracking, referrer passthrough, and setup instructions.  
   - **No Workers required**  
   - **Includes curl test examples**  
   - **Explains fragment behavior**  
   - **Apache 2.0 licensed**  
+
+- **[EdgeRouter Recovery Guide - edgerouter-recovery-guide-safe-commit-rollback-ssh-tftp-usb.md](https://gists.mickert.dev/af110cad23a8a38cbfdf4735884b4a5d#file-edgerouter-recovery-guide-safe-commit-rollback-ssh-tftp-usb-md)**  
+  Production-safe recovery guide for all EdgeRouter models and EdgeOS versions.  
+  - Covers safe commit workflows, rollback mapping, SSH recovery, firmware rollback, USB/TFTP recovery, and failsafe mode  
+  - Includes flowcharts, QR code, hardware recommendations, and a full recovery matrix  
+  - **Apache 2.0 licensed** with canonical reference and print-friendly layout  
 
 
 🔗 **All gists:** https://gists.mickert.dev
