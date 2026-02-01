@@ -40,6 +40,17 @@ Includes adaptive backoff and a test-only mode for UI-change resilience.
 
 I use GitHub Gists for small tools, patches, and technical notes that don’t need a full repository but are still worth sharing with others.
 
+- **[OpenSSL Vulnerability Scanner (Python 3) - check_openssl_version.py](https://gists.mickert.dev/6e97ddaf163503beb78a49b397fca96b#check_openssl_version.py)**  
+  Cross-platform scanner for OpenSSL versions potentially vulnerable to recent CVEs, including:  
+  - CVE-2025-15467 (QUIC parsing, High)  
+  - CVE-2025-11187 (PBMAC1 in PKCS#12, Moderate)  
+  - CVE-2025-68160, CVE-2025-69418, and others (Low)  
+  - Detects OpenSSL versions in binaries, Python bindings, and system packages  
+  - Handles distro-specific suffixes (e.g. `-ubuntu1`) and FIPS builds  
+  - Outputs to CSV/JSON with CVE impact, package info, and version provenance  
+  - Suitable for CI, RMM, scripting, and audit pipelines  
+  - **Apache 2.0 licensed** with canonical reference and changelog
+
 - **[avaScript automation script to bulk-dismiss Microsoft Defender Family phishing alerts - defender-family-bulk-dismiss-alerts.js](https://gists.mickert.dev/acb16e532d1cb37ae7ffa89f34fa29b0#file-defender-family-bulk-dismiss-alerts-js)**  
   DevTools automation script to bulk-dismiss Microsoft Defender Family phishing alerts.  
   - Works with Dutch and English UI  
