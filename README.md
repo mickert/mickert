@@ -51,7 +51,7 @@ I use GitHub Gists for small tools, patches, and technical notes that don’t ne
   - Suitable for CI, RMM, scripting, and audit pipelines  
   - **Apache 2.0 licensed** with canonical reference and changelog
 
-- **[avaScript automation script to bulk-dismiss Microsoft Defender Family phishing alerts - defender-family-bulk-dismiss-alerts.js](https://gists.mickert.dev/acb16e532d1cb37ae7ffa89f34fa29b0#file-defender-family-bulk-dismiss-alerts-js)**  
+- **[JavaScript automation script to bulk-dismiss Microsoft Defender Family phishing alerts - defender-family-bulk-dismiss-alerts.js](https://gists.mickert.dev/acb16e532d1cb37ae7ffa89f34fa29b0#file-defender-family-bulk-dismiss-alerts-js)**  
   DevTools automation script to bulk-dismiss Microsoft Defender Family phishing alerts.  
   - Works with Dutch and English UI  
   - Regex-based matching to stay stable across UI changes  
