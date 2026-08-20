@@ -83,6 +83,12 @@ I use GitHub Gists for small tools, patches, and technical notes that don’t ne
   - Includes flowcharts, QR code, hardware recommendations, and a full recovery matrix  
   - **Apache 2.0 licensed** with canonical reference and print-friendly layout  
 
+- **Windows QUIC Mitigation Script - cve-2026-62815-quic-mitigation.ps1 [https://gists.mickert.dev/cb2276ed620d5c1b95b4e0b95a9bace5#cve-2026-62815-quic-mitigation.ps1)**  
+  Mitigation script for CVE-2026-62815, the Microsoft QUIC RCE affecting HTTP/3 servers on Windows Server 2022 and 2025.  
+  - Disables QUIC and HTTP/3 in .NET, IIS, and HTTP.sys  
+  - Blocks outbound QUIC handshakes for svchost.exe and WinHttpAutoProxySvc  
+  - Disables the built-in QUIC Traffic-In rule and adds a global inbound UDP 443 block  
+  - **Apache 2.0 licensed** and safe to deploy through Action1
 
 🔗 **All gists:** https://gists.mickert.dev
 
