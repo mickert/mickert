@@ -90,6 +90,11 @@ I use GitHub Gists for small tools, patches, and technical notes that don’t ne
   - Disables the built-in QUIC Traffic-In rule and adds a global inbound UDP 443 block  
   - **Apache 2.0 licensed** and safe to deploy through Action1
 
+- **[Windows Build & Update Compliance Checker - Get-WindowsBuildCompliance.ps1](https://gists.mickert.dev/44ad7430624150d432eba1533db72c58#file-get-windowsbuildcompliance-ps1)**  
+  Reports last Windows Update results and verifies Windows servicing build compliance.  
+  - Compares local build with baseline and hotpatch builds
+  - **Apache 2.0 licensed** and safe to deploy through Action1
+
 🔗 **All gists:** https://gists.mickert.dev
 
 ---
